@@ -1,3 +1,7 @@
+@256
+D=A
+@SP
+M=D
 // Parsing: push constant 10
 @10
 D=A
@@ -188,8 +192,6 @@ M=M-1
 @SP
 A=M
 M=M+D
-@SP
-M=M+1
 // Parsing: push argument 1
 @ARG
 D=M
@@ -211,8 +213,6 @@ M=M-1
 @SP
 A=M
 M=M-D
-@SP
-M=M+1
 // Parsing: push this 6
 @THIS
 D=M
@@ -245,8 +245,6 @@ M=M-1
 @SP
 A=M
 M=M+D
-@SP
-M=M+1
 // Parsing: sub
 @SP
 M=M-1
@@ -257,8 +255,6 @@ M=M-1
 @SP
 A=M
 M=M-D
-@SP
-M=M+1
 // Parsing: push temp 6
 @R11
 D=M
@@ -277,5 +273,3 @@ M=M-1
 @SP
 A=M
 M=M+D
-@SP
-M=M+1
